@@ -103,7 +103,7 @@ public class PreferenceManager {
     }
 
     public boolean getAdBlockEnabled() {
-        return mPrefs.getBoolean(Name.BLOCK_ADS, false);
+        return mPrefs.getBoolean(Name.BLOCK_ADS, true);
     }
 
     public boolean getBlockImagesEnabled() {
@@ -111,7 +111,7 @@ public class PreferenceManager {
     }
 
     public boolean getBlockThirdPartyCookiesEnabled() {
-        return mPrefs.getBoolean(Name.BLOCK_THIRD_PARTY, false);
+        return mPrefs.getBoolean(Name.BLOCK_THIRD_PARTY, true);
     }
 
     public boolean getCheckedForTor() {
@@ -123,19 +123,19 @@ public class PreferenceManager {
     }
 
     public boolean getClearCacheExit() {
-        return mPrefs.getBoolean(Name.CLEAR_CACHE_EXIT, false);
+        return mPrefs.getBoolean(Name.CLEAR_CACHE_EXIT, true);
     }
 
     public boolean getClearCookiesExitEnabled() {
-        return mPrefs.getBoolean(Name.CLEAR_COOKIES_EXIT, false);
+        return mPrefs.getBoolean(Name.CLEAR_COOKIES_EXIT, true);
     }
 
     public boolean getClearWebStorageExitEnabled() {
-        return mPrefs.getBoolean(Name.CLEAR_WEBSTORAGE_EXIT, false);
+        return mPrefs.getBoolean(Name.CLEAR_WEBSTORAGE_EXIT, true);
     }
 
     public boolean getClearHistoryExitEnabled() {
-        return mPrefs.getBoolean(Name.CLEAR_HISTORY_EXIT, false);
+        return mPrefs.getBoolean(Name.CLEAR_HISTORY_EXIT, true);
     }
 
     public boolean getColorModeEnabled() {
@@ -143,7 +143,7 @@ public class PreferenceManager {
     }
 
     public boolean getCookiesEnabled() {
-        return mPrefs.getBoolean(Name.COOKIES, true);
+        return mPrefs.getBoolean(Name.COOKIES, false);
     }
 
     @NonNull
@@ -219,11 +219,11 @@ public class PreferenceManager {
     }
 
     public boolean getSavePasswordsEnabled() {
-        return mPrefs.getBoolean(Name.SAVE_PASSWORDS, true);
+        return mPrefs.getBoolean(Name.SAVE_PASSWORDS, false);
     }
 
     public int getSearchChoice() {
-        return mPrefs.getInt(Name.SEARCH, 1);
+        return mPrefs.getInt(Name.SEARCH, 7);
     }
 
     @NonNull

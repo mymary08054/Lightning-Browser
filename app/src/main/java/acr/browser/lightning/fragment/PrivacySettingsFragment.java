@@ -6,12 +6,14 @@ package acr.browser.lightning.fragment;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.webkit.WebView;
@@ -51,6 +53,7 @@ public class PrivacySettingsFragment extends LightningPreferenceFragment impleme
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         BrowserApp.getAppComponent().inject(this);
+
         // Load the preferences from an XML resource
         addPreferencesFromResource(R.xml.preference_privacy);
 
