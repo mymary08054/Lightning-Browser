@@ -5,23 +5,28 @@
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="location"
-            android:title="@string/location"/>
+            android:title="@string/location"
+            android:summary="@string/location_descr"/>
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="third_party"
-            android:title="@string/third_party"/>
+            android:title="@string/third_party"
+            android:summary="@string/third_party_desc"/>
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="password"
-            android:title="@string/password"/>
+            android:title="@string/password"
+            android:summary="@string/password_desc"/>
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="do_not_track"
-            android:title="@string/do_not_track"/>
+            android:title="@string/do_not_track"
+            android:summary="@string/do_not_track_desc"/>
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="remove_identifying_headers"
-            android:title="@string/remove_identifying_headers"/>
+            android:title="@string/remove_identifying_headers"
+            android:summary="@string/remove_identifying_headers_desc"/>
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="clear_cache_exit"

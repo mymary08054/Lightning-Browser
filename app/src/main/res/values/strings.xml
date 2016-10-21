@@ -17,6 +17,15 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
+    <!-- TrackOFF -->
+    <string name="clear_cookies_desc">clear cache</string>
+    <string name="location_descr">When location access is on, you may expose your location to strangers.</string>
+    <string name="third_party_desc">Websites that you are not viewing can set 3rd party cookies, which can be tracked.</string>
+    <string name="password_desc">If someone else accesses your computer, they may take your saved passwords.</string>
+    <string name="do_not_track_desc">A request for websites to not track you. Websites that recognize this request will take the necessary measures.</string>
+    <string name="remove_identifying_headers_desc">Prevents attackers from taking control of your browser.</string>
+    <!-- TrackOFF -->
+
     <string name="button_clear_cache">clear cache</string>
     <string name="app_name">Lightning</string>
     <string name="action_new_tab">New Tab</string>
